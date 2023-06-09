@@ -99,13 +99,21 @@ h1{
     display: none;
 }
 
+
+.attribution{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 @media screen and (max-width: 599px){
     
 
     .card{
         flex-direction: column;
         width: 400px;
-        height: 90vh;
+        height: 800px;
     }
 
     .card-contain{
